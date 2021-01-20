@@ -10,6 +10,10 @@ setup(
         ]
     },
     install_requires=[
-         'pandas>=1.2.0'
+        'pandas>=1.2.0',
+        'scikit-learn>=0.24',
+        'matplotlib>=3.3.3',
+        'numpy>=1.19.0',
+        'kneed>=0.7.0'
     ]
 )
